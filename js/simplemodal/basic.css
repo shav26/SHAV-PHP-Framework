@@ -1,0 +1,57 @@
+
+#admin_user_add-content, #admin_type_add-content, #admin_status_add-content, #admin_page_add-content, #vasy-content, #site_page_add-content
+{
+	display:none;
+}
+/*
+#admin_user_edit, #admin_status_edit
+{
+	width:32px;
+	float:left;
+}*/
+
+/* Overlay */
+#simplemodal-overlay
+{
+	background-color:#000;
+	cursor:wait;
+}
+
+/* Container */
+#simplemodal-container
+{
+	height:320px;
+	width:600px;
+	color:#000;
+	background-color:#fff;
+	border:4px solid #444;
+	padding:12px;
+}
+
+#simplemodal-container a
+{
+	color:#ccc;
+}
+
+#simplemodal-container a.modalCloseImg
+{
+	background:url(../../images/x.png) no-repeat;
+	width:25px;
+	height:29px;
+	display:inline;
+	z-index:3200;
+	position:absolute;
+	top:-15px;
+	right:-16px;
+	cursor:pointer;
+}
+
+#simplemodal-container #basic-modal-content
+{
+	padding:8px;
+}
+
+#simplemodal-container table
+{
+	width:100%;
+}

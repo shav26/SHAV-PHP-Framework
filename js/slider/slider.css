@@ -1,0 +1,37 @@
+.track-center{
+	background-image: url(/js/slider/img/track.png);
+	height: 45px;
+	margin: 0px 10px;
+}
+
+.track-left{
+	width: 10px;
+	height: 45px;
+	float: left;
+	background-image: url(/js/slider/img/trackleft.png);
+}
+
+.track-right{
+	width: 10px;
+	height: 45px;
+	float: right;
+	background-image: url(/js/slider/img/trackright.png);
+}
+
+.track-message{
+	color:white;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:24px;
+	padding:9px 18px;
+	text-align:right;
+}
+
+.handle{
+	background-image: url(/js/slider/img/handles.png);
+	bottom:45px;
+	cursor:pointer;
+	height:39px;
+	margin:3px 4px;
+	position:relative;
+	width:76px;
+}
